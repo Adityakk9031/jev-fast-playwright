@@ -768,10 +768,7 @@ async function main(): Promise<void> {
   await server.connect(transport);
   logger.info('MCP server connected via stdio — ready for tool calls');
 
-  // Pre-warm browser after MCP handshake (launch mode opens Chrome immediately).
-  browserManager.init().catch((err: unknown) => {
-    logger.warn('Browser pre-warm failed — will retry on first tool call', { err: String(err) });
-  });
+  // Browser is lazily initialized on the first tool call (via browserManager.getPage()).
 }
 
 main().catch((err: unknown) => {
