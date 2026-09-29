@@ -17,14 +17,20 @@ boot_test.log
 
 # ── Large binary artifacts (video / raw screenshots) ─────────────────────────
 artifacts/edit/take.webm
-artifacts/edit/draft.mp4
+artifacts/edit/*.mp4
+artifacts/edit/*.webm
 artifacts/edit/*.png
 artifacts/edit/*.jpg
 artifacts/edit/sheetA.png
 artifacts/edit/sheetB.png
 artifacts/edit/sheetC.png
 artifacts/*.png
+artifacts/*.mp4
 test/screenshot_test.png
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
 
 # ── ZCode / Cursor IDE internal ───────────────────────────────────────────────
 .zcodeignore
