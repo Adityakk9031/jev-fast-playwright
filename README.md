@@ -18,9 +18,11 @@
 ## 🎬 Live Demo
 
 <!-- Autoplaying visual demo loop -->
-<p align="center">
-  <img src="demo/demo_preview.gif" alt="jev-fast-playwright in action" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-</p>
+
+
+https://github.com/user-attachments/assets/844a6cc3-e73e-4f7d-94f5-63d20f1fb432
+
+
 
 <p align="center">
   <a href="demo/demo.mp4"><b>▶️ Watch Full 2-Minute Demo Video with Voiceover Narration (1080p, 5.4 MB)</b></a>
