@@ -1,0 +1,46 @@
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Build output ──────────────────────────────────────────────────────────────
+build/
+dist/
+
+# ── Secrets ───────────────────────────────────────────────────────────────────
+.env
+*.env.local
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+boot_test.log
+
+# ── Large binary artifacts (video / raw screenshots) ─────────────────────────
+artifacts/edit/take.webm
+artifacts/edit/draft.mp4
+artifacts/edit/*.png
+artifacts/edit/*.jpg
+artifacts/edit/sheetA.png
+artifacts/edit/sheetB.png
+artifacts/edit/sheetC.png
+artifacts/*.png
+test/screenshot_test.png
+
+# ── ZCode / Cursor IDE internal ───────────────────────────────────────────────
+.zcodeignore
+.zcode/
+
+# ── OS artifacts ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editors ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── TypeScript cache ──────────────────────────────────────────────────────────
+*.tsbuildinfo

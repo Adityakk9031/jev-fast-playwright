@@ -1,0 +1,1 @@
+an MCP server — works with Cursor, Claude Code, any agent

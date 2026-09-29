@@ -1,0 +1,1 @@
+Even a login wall on the wishlist is handled gracefully. Ten tasks later, it's back home — a few hundred tokens per step. Never a page dump.

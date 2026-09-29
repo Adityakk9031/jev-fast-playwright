@@ -1,0 +1,1 @@
+This is jev-fast-playwright — an M C P server that lets any coding agent test a real website, without burning tokens.

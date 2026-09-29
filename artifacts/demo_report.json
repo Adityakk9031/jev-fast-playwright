@@ -1,0 +1,90 @@
+{
+  "demo": "jev-fast-playwright",
+  "goal": "Low-token UI test via compressed DOM + System-1 select (not full Playwright agent / screenshots)",
+  "passed": true,
+  "total_ms": 7082,
+  "steps": [
+    {
+      "step": "jev_browser_status",
+      "ok": true,
+      "ms": 1681,
+      "detail": {
+        "mode": "launch",
+        "connection": "launched",
+        "channel": "chrome",
+        "ready": true
+      }
+    },
+    {
+      "step": "jev_navigate",
+      "ok": true,
+      "ms": 3336,
+      "detail": {
+        "url": "https://www.demoblaze.com/",
+        "title": "STORE"
+      }
+    },
+    {
+      "step": "jev_page_snapshot",
+      "ok": true,
+      "ms": 17,
+      "detail": {
+        "element_count": 33,
+        "sample": [
+          {
+            "id": "A",
+            "role": "link",
+            "text": "PRODUCT STORE"
+          },
+          {
+            "id": "B",
+            "role": "link",
+            "text": "Home\n(current)"
+          },
+          {
+            "id": "C",
+            "role": "link",
+            "text": "Contact"
+          },
+          {
+            "id": "D",
+            "role": "link",
+            "text": "About us"
+          },
+          {
+            "id": "E",
+            "role": "link",
+            "text": "Cart"
+          },
+          {
+            "id": "F",
+            "role": "link",
+            "text": "Log in"
+          },
+          {
+            "id": "G",
+            "role": "link",
+            "text": "Sign up"
+          },
+          {
+            "id": "H",
+            "role": "button",
+            "text": "Previous"
+          }
+        ]
+      }
+    },
+    {
+      "step": "jev_fast_click",
+      "ok": true,
+      "ms": 1564,
+      "detail": {
+        "target": "Laptops",
+        "clicked": "Laptops",
+        "confidence": 0.84,
+        "selector_source": "heuristic",
+        "url": "https://www.demoblaze.com/#"
+      }
+    }
+  ]
+}

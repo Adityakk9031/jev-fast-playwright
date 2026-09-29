@@ -1,0 +1,12 @@
+* text=auto
+*.ts text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.mp3 binary
+*.webm binary
+*.mp4 binary

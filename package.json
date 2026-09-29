@@ -1,0 +1,44 @@
+{
+  "name": "jev-fast-playwright",
+  "version": "1.1.0",
+  "description": "Agent-agnostic MCP server: low-token browser UI testing via compressed DOM + Jev System-1 selection + Playwright.",
+  "main": "build/src/index.js",
+  "scripts": {
+    "build": "swc src -d build --copy-files",
+    "start": "npm run build && node build/src/index.js",
+    "dev": "ts-node --transpile-only src/index.ts",
+    "typecheck": "node --max-old-space-size=4096 node_modules/typescript/bin/tsc --noEmit",
+    "test": "ts-node --transpile-only test/manualTest.ts",
+    "test:heuristic": "ts-node --transpile-only test/heuristicTest.ts",
+    "test:adidas": "ts-node --transpile-only test/adidas_mcp_test.ts",
+    "smoke": "ts-node --transpile-only test/smoke_cdp.ts",
+    "demo": "ts-node --transpile-only demo/run_demo.ts",
+    "clean": "rimraf build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.1",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.48.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.8.1",
+    "@swc/core": "^1.16.2",
+    "@types/node": "^22.0.0",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "playwright",
+    "jev",
+    "browser-automation",
+    "ai-agent",
+    "low-token"
+  ],
+  "license": "MIT"
+}

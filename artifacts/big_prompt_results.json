@@ -1,0 +1,257 @@
+{
+  "steps": {
+    "0_status": {
+      "success": true,
+      "mode": "launch",
+      "url": null
+    },
+    "2_navigate": {
+      "success": true,
+      "final_url": "https://www.adidas.com/us",
+      "title": "Sneakers and Activewear | adidas US"
+    },
+    "3_type_search": {
+      "success": true,
+      "selector_source": "jev",
+      "confidence": 1,
+      "jev_api_ms": 1018.04
+    },
+    "4_enter_wait": {
+      "success": true,
+      "url": "https://www.adidas.com/us/running-shoes"
+    },
+    "5_snapshot": {
+      "element_count": 230,
+      "samples": [
+        "Open information on adidas advantages, offers and more.",
+        "store finder",
+        "help"
+      ]
+    },
+    "6_click_product_card": {
+      "success": false,
+      "clicked": "",
+      "selector_source": "jev",
+      "confidence": 0.5
+    },
+    "7_product_retry": {
+      "success": true,
+      "clicked": "Price $275 ADIZERO ADIOS PRO 5 Running Shoes Women Performance New",
+      "selector_source": "jev",
+      "confidence": 1
+    },
+    "7_product_page_check": {
+      "on_product_page": true,
+      "url": "https://www.adidas.com/us/adizero-adios-pro-5-running-shoes/KI8293.html",
+      "retry_needed": true
+    },
+    "8_scroll": {
+      "success": true
+    },
+    "9_size_9": {
+      "success": true,
+      "clicked": "9",
+      "selector_source": "jev",
+      "confidence": 1,
+      "retried": false
+    },
+    "10_add_to_bag": {
+      "success": true,
+      "clicked": "Add to bag",
+      "selector_source": "jev",
+      "confidence": 1
+    },
+    "12_screenshot": {
+      "success": true,
+      "approx_kb": 117
+    },
+    "13_logo": {
+      "success": true,
+      "picked": "Homepage",
+      "url": "https://www.adidas.com/us"
+    },
+    "14_wishlist": {
+      "success": true,
+      "picked": "Go to wishlist"
+    },
+    "15_type_search_again": {
+      "success": true,
+      "selector_source": "jev",
+      "confidence": 1
+    },
+    "16_demoblaze_nav": {
+      "success": true,
+      "title": "STORE"
+    },
+    "17_laptops": {
+      "success": true,
+      "selector_source": "jev",
+      "confidence": 1,
+      "url": "https://www.demoblaze.com/#"
+    },
+    "18_first_product": {
+      "success": true,
+      "clicked": "PRODUCT STORE",
+      "url": "https://www.demoblaze.com/index.html"
+    },
+    "19_vague_refused": {
+      "success": false,
+      "reason": "LOW_CONFIDENCE",
+      "refused": true
+    },
+    "20_negation": {
+      "success": false,
+      "reason": "LOW_CONFIDENCE",
+      "confidence": 0.36
+    },
+    "21_bad_url": {
+      "success": false,
+      "reason": "NAVIGATION_FAILED",
+      "graceful": true
+    },
+    "22_password_graceful": {
+      "success": false,
+      "reason": "NO_INPUT_ELEMENTS",
+      "graceful": true
+    },
+    "23_wait_timeout": {
+      "success": false,
+      "reason": "WAIT_TIMEOUT",
+      "timed_out": true
+    },
+    "24_final_status": {
+      "url": "chrome-error://chromewebdata/"
+    }
+  },
+  "selections": [
+    {
+      "step": "3_type_search",
+      "source": "jev",
+      "confidence": 1,
+      "jev_api_ms": 1018.04
+    },
+    {
+      "step": "6_click_product_card",
+      "source": "jev",
+      "confidence": 0.22,
+      "jev_api_ms": 678.83
+    },
+    {
+      "step": "6_click_product_card (exact-text retry)",
+      "source": "jev",
+      "confidence": 0.5,
+      "jev_api_ms": 402.66
+    },
+    {
+      "step": "7_product_retry",
+      "source": "jev",
+      "confidence": 1,
+      "jev_api_ms": 469.85
+    },
+    {
+      "step": "9_size_9",
+      "source": "jev",
+      "confidence": 1,
+      "jev_api_ms": 615.76
+    },
+    {
+      "step": "10_add_to_bag",
+      "source": "jev",
+      "confidence": 1,
+      "jev_api_ms": 353.64
+    },
+    {
+      "step": "13_logo",
+      "source": "jev",
+      "confidence": 0.43,
+      "jev_api_ms": 801.58
+    },
+    {
+      "step": "13_logo (exact-text retry)",
+      "source": "jev",
+      "confidence": 1,
+      "jev_api_ms": 423.9
+    },
+    {
+      "step": "14_wishlist",
+      "source": "jev",
+      "confidence": 0.92,
+      "jev_api_ms": 707.33
+    },
+    {
+      "step": "15_type_search_again",
+      "source": "jev",
+      "confidence": 1,
+      "jev_api_ms": 398.38
+    },
+    {
+      "step": "17_laptops",
+      "source": "jev",
+      "confidence": 1,
+      "jev_api_ms": 386.31
+    },
+    {
+      "step": "18_first_product",
+      "source": "jev",
+      "confidence": 0.7,
+      "jev_api_ms": 474.47
+    },
+    {
+      "step": "18_first_product (exact-text retry)",
+      "source": "jev",
+      "confidence": 1,
+      "jev_api_ms": 434.39
+    },
+    {
+      "step": "19_vague",
+      "source": "jev",
+      "confidence": 0.19,
+      "jev_api_ms": 435.2
+    },
+    {
+      "step": "20_negation",
+      "source": "jev",
+      "confidence": 0.36,
+      "jev_api_ms": 350.42
+    }
+  ],
+  "summary": {
+    "jev_model_check": {
+      "total_selections": 15,
+      "selected_by": {
+        "jev": 15,
+        "heuristic": 0
+      },
+      "avg_jev_api_ms": 530,
+      "confidence_range": [
+        0.19,
+        1
+      ]
+    },
+    "phase1_adidas": {
+      "search": "jev",
+      "product_clicked": null,
+      "product_url": "https://www.adidas.com/us/adizero-adios-pro-5-running-shoes/KI8293.html",
+      "size_selected": true,
+      "add_to_bag": true
+    },
+    "phase2_probes": {
+      "logo": "Homepage",
+      "wishlist": "Go to wishlist",
+      "search_again": true
+    },
+    "phase3_demoblaze": {
+      "laptops": "jev",
+      "product": "PRODUCT STORE"
+    },
+    "phase4_edge_cases": {
+      "vague_refused": true,
+      "negation_weaker": true,
+      "bad_url_graceful": true,
+      "no_password_field_graceful": true
+    },
+    "failures": [
+      "6_click_product_card: LOW_CONFIDENCE"
+    ]
+  }
+}

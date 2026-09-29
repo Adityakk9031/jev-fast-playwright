@@ -1,0 +1,1 @@
+compressed DOM → Jev System-1 picks the element → Playwright acts
